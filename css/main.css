@@ -20,3 +20,10 @@ img {
     border: 1px solid black;
 
 }
+
+@media only screen and (max-width: 480px) {
+    nav {
+        display: block;
+        width: 60%;
+    }
+}
