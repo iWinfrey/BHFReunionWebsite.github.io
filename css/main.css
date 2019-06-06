@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+}
+body {
+    background-color:#F5F5DC;
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 75%;
+    border: 1px solid black;
+
+}
