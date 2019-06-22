@@ -10,7 +10,7 @@ body {
     background-color:#F5F5DC;
 }
 
-img {
+#logo {
     
     display: block;
     margin-left: auto;
@@ -21,6 +21,86 @@ img {
 
 }
 
+img {
+    display: block;
+
+    width: 40%;
+    
+
+}
+
+/*****
+Cincy pictures
+*******/
+
+#cincy1 {
+
+    display: block;
+    margin-right: auto;
+    margin-left: 10%;
+    float: left;
+}
+
+#cincy2 {
+    display: block;
+    height: 335px;
+  
+}
+
+
+/****
+Navbar styling
+******/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+   
+  }
+
+li a:hover {
+    background-color: #111;
+  }
+
+  /*******
+  Sidebar info 
+  *******/
+  aside {
+      display: block;
+      float: right;
+      border: 2px solid black;
+      margin: 0 1.5%;
+      width: 50%;
+  }
+  
+  
+  
+#hotelPics {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+   
+}
+
+
+/**********
+Mobile styling
+**********/
 @media only screen and (max-width: 480px) {
     nav {
         display: block;
