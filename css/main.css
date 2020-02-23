@@ -51,7 +51,7 @@ Cincy pictures
 /****
 Navbar styling
 ******/
-ul {
+#navList {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -59,11 +59,11 @@ ul {
     background-color: #333;
   }
   
-  li {
+  #navBar {
     float: left;
   }
   
-  li a {
+  #navBar a {
     display: block;
     color: white;
     text-align: center;
@@ -73,7 +73,7 @@ ul {
    
   }
 
-li a:hover {
+#navBar a:hover {
     background-color: #111;
   }
 
@@ -98,6 +98,16 @@ li a:hover {
 }
 
 
+/******************************************
+Bullet point formatting for family members
+*******************************************/
+#members {
+    background-color: #F5F5DC;
+}
+
+#listMembers {
+    background-color: #F5F5DC;
+}
 /**********
 Mobile styling
 **********/
