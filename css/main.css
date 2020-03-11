@@ -1,119 +1,140 @@
+/************
+General
+*************/
 h1 {
-    color: blue;
-    font-size: 40px;
+  color: blue;
+  font-size: 40px;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 body {
-    background-color:#F5F5DC;
+  background-color: #f5f5dc;
 }
 
 #logo {
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    width: 75%;
-    border: 1px solid black;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 75%;
+  border: 1px solid black;
 }
 
 img {
-    display: block;
+  display: block;
 
-    width: 40%;
-    
-
+  width: 40%;
 }
 
-/*****
+/*************
 Cincy pictures
-*******/
+**************/
 
 #cincy1 {
-
-    display: block;
-    margin-right: auto;
-    margin-left: 10%;
-    float: left;
+  display: block;
+  margin-right: auto;
+  margin-left: 10%;
+  float: left;
 }
 
 #cincy2 {
-    display: block;
-    height: 335px;
-  
+  display: block;
+  height: 335px;
 }
 
-
-/****
+/**************
 Navbar styling
-******/
+**************/
 #navList {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  #navBar {
-    float: left;
-  }
-  
-  #navBar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  
-   
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navBar {
+  float: left;
+}
+
+#navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 #navBar a:hover {
-    background-color: #111;
-  }
-
-  /*******
-  Sidebar info 
-  *******/
-  aside {
-      display: block;
-      float: right;
-      border: 2px solid black;
-      margin: 0 1.5%;
-      width: 50%;
-  }
-  
-  
-  
-#hotelPics {
-    float: left;
-    margin: 0 1.5%;
-    width: 63%;
-   
+  background-color: #111;
 }
 
+/*******
+  Sidebar info 
+  *******/
+aside {
+  display: block;
+  float: right;
+  border: 2px solid black;
+  margin: 0 1.5%;
+  width: 50%;
+}
+
+/**********
+  Hotel pics
+  **********/
+#hotelPics {
+  float: left;
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#column1 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+#column2 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+#column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+#column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
 /******************************************
 Bullet point formatting for family members
 *******************************************/
 #members {
-    background-color: #F5F5DC;
+  background-color: #f5f5dc;
 }
 
 #listMembers {
-    background-color: #F5F5DC;
+  background-color: #f5f5dc;
 }
+
 /**********
 Mobile styling
 **********/
 @media only screen and (max-width: 480px) {
-    nav {
-        display: block;
-        width: 60%;
-    }
+  nav {
+    display: block;
+    width: 60%;
+  }
 }
