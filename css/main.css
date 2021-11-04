@@ -7,47 +7,54 @@ h1 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
+}
+
+.addressHeader {
+  font-size: 25px;
+}
+
+.addressInfo {
+  font-size: 20px;
 }
 body {
   background-color: #f5f5dc;
 }
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px;
-  width: 75%;
-  border: 1px solid black;
+.mainText {
+  border: 2px solid black;
+  margin-top: 10px;
 }
 
 img {
   display: block;
-
-  width: 40%;
+  /* width: 40%; */
 }
 
 /*************
 Cincy pictures
 **************/
 
-#cincy1 {
-  display: block;
+.cincy1 {
+  /* display: block;
   margin-right: auto;
   margin-left: 10%;
-  float: left;
+  float: left; */
+  max-width: 100%;
+  height: auto;
 }
 
-#cincy2 {
-  display: block;
-  height: 335px;
+.cincy2 {
+  /* display: block;
+  height: 335px; */
+  max-width: 100%;
+  height: auto;
 }
 
 /**************
 Navbar styling
 **************/
-#navList {
+.navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,11 +62,11 @@ Navbar styling
   background-color: #333;
 }
 
-#navBar {
+.navBar {
   float: left;
 }
 
-#navBar a {
+.navBar a {
   display: block;
   color: white;
   text-align: center;
@@ -67,14 +74,14 @@ Navbar styling
   text-decoration: none;
 }
 
-#navBar a:hover {
+.navBar a:hover {
   background-color: #111;
 }
 
 /*******
   Sidebar info 
   *******/
-aside {
+.hotelInfo {
   display: block;
   float: right;
   border: 2px solid black;
@@ -82,27 +89,72 @@ aside {
   width: 50%;
 }
 
+.addressSection {
+  display: block;
+  border: 2px solid black;
+  width: 40%;
+  padding-right: 70px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
 /**********
   Hotel pics
   **********/
-#hotelPics {
-  float: left;
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+.hotelPicColumns{
+  column-count: 2;
+  display: block;
+  /* border: 2px solid black; */
+  
 }
 
-#column1 {
-  -ms-flex: 50%; /* IE10 */
+.hotelPics1 {
+  max-width: 100%;
+  height: auto;
+  margin-right: -16px;
+  float:right;
+}
+
+.hotelPics2 {
+  max-width: 100%;
+  height: auto;
+  margin-right: -16px;
+  float: left;
+
+}
+
+.hotelScreenShots {
+  width:100%;
+  height: auto;
+}
+
+
+/***************
+Logo banner
+****************/
+.logo {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 40%; */
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url(images/reunionLogo.jpg);
+}
+
+/* #column1 {
+  -ms-flex: 50%; 
   flex: 50%;
   max-width: 25%;
   padding: 0 4px;
 }
 
 #column2 {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%; 
   flex: 50%;
   max-width: 25%;
   padding: 0 4px;
@@ -116,7 +168,7 @@ aside {
 #column2 img {
   margin-top: 8px;
   vertical-align: middle;
-}
+} */
 
 /******************************************
 Bullet point formatting for family members
@@ -132,9 +184,27 @@ Bullet point formatting for family members
 /**********
 Mobile styling
 **********/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:500px) {
   nav {
     display: block;
     width: 60%;
   }
+
+  
+  .hotelPics1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hotelPics2 {
+    width: 100%;
+    height: auto;
+  
+  }
+.hotelScreenShots {
+  width:100%;
+  height: auto;
+}
+
+  /* p.magnifiable:hover { font-size: 200%; } */
 }
