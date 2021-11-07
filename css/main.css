@@ -96,6 +96,8 @@ Navbar styling
   padding-right: 70px;
   margin-bottom: 5px;
   margin-left: 15px;
+  float: left;
+  position: absolute;
 }
 /**********
   Hotel pics
@@ -104,6 +106,7 @@ Navbar styling
   column-count: 2;
   display: block;
   /* border: 2px solid black; */
+  float: left;
   
 }
 
@@ -187,7 +190,7 @@ Mobile styling
 @media only screen and (max-width:500px) {
   nav {
     display: block;
-    width: 60%;
+    width: 100%;
   }
 
   
@@ -204,6 +207,18 @@ Mobile styling
 .hotelScreenShots {
   width:100%;
   height: auto;
+}
+
+.hotelInfo {
+  width: 50%;
+  height: auto;
+
+}
+
+.addressSection {
+  width: 40%;
+  height: auto;
+  padding-right: 5px;
 }
 
   /* p.magnifiable:hover { font-size: 200%; } */
