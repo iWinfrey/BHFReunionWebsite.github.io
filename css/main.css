@@ -24,6 +24,7 @@ body {
 .mainText {
   border: 2px solid black;
   margin: 2px;
+  margin-bottom: 15px;
 }
 
 img {
