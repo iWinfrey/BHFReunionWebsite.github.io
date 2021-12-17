@@ -151,8 +151,13 @@ Logo banner
   margin-right: auto;
 
   width: 100%; */
+  max-width: 100%;
+  height: auto;
 
-  background-image: url('images/reunionLogo2.svg');
+
+ /* background-size: 20px 30px; */
+
+  /* background-image: url('images/reunionLogo2.svg'); */
 }
 
 /* #column1 {
