@@ -146,18 +146,17 @@ Navbar styling
 Logo banner
 ****************/
 .logo {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
 
-  width: 100%; */
-  max-width: 100%;
-  height: auto;
+  width: 1290px;
+  height: 762px;
+  object-fit: cover;
+  /* background: url("images/reunionLogo2.svg"); */
 
 
- /* background-size: 20px 30px; */
-
-  /* background-image: url('images/reunionLogo2.svg'); */
+  /* width: 1280px;
+  height: 778px;
+  object-fit: cover;
+  margin-left: 306px; */
 }
 
 /* #column1 {
